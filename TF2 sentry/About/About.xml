@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+ <packageId>ROBTRG.TF2.Sentry</packageId>
+ <name>Team Fortress 2 sentry gun</name>
+ <author>RobTheRobotGuard</author>
+ <supportedVersions>
+	<li>1.4</li>
+ </supportedVersions>
+ <description>
+"Hey look, buddy. I'm an engineer — that means I solve problems.
+Not problems like 'What is beauty?' because that would fall within the purview of your conundrums of philosophy.
+I solve practical problems." -Engi 2007 
+
+Sorry combat extended is not supported.
+
+
+Thank you to ocarina0001 for createing the textures.
+ </description>
+</ModMetaData>
