@@ -2,7 +2,7 @@
  <ThingDef ParentName="BuildingBase">
     <defName>ROBTRG_TF2_Sentry_Gun_mini</defName>
     <label>Team Fortress 2 mini sentry gun</label>
-    <description>Hay look buddy i am modder and that means i solve problem. This is a remake of the sentry gun from TF2 and it has simular damage values that you would find in tf2. This is a replica of the level 1 sentry gun</description>
+    <description>Hay look buddy i am modder and that means i solve problem. This is a remake of the mini sentry gun from TF2 and it has simular damage values that you would find in tf2. This is a replica of the mini sentry gun</description>
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
