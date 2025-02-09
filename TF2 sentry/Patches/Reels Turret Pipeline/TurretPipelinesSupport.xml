@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+This is what the patching process looks like for Reels Turret Pipeline.
+I imagine someone will find this handy if anyone is snooping within mod files 
+!-->
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>3009271505</li>
+			<li>Team Fortress 2 sentry gun</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ROBTRG_TF2_Sentry_Gun"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li</xpath> <!-- Level 1 Sentry Gun !-->
+		<value>
+			<li>ReelTurretAmmo</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="ROBTRG_TF2_Sentry_Gun_Level_Two"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li</xpath> <!-- Level 2 Sentry Gun !-->
+		<value>
+			<li>ReelTurretAmmo</li>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="ROBTRG_TF2_Sentry_Gun_mini"]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs/li</xpath> <!-- Mini Sentry Gun !-->
+		<value>
+			<li>ReelTurretAmmo</li>
+		</value>
+	</li>
+
+		</operations>
+					</match>	
+	</Operation>
+</Patch>
