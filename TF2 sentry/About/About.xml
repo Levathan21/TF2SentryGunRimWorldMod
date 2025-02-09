@@ -18,4 +18,7 @@ Sorry combat extended is not supported.
 
 Thank you to ocarina0001 for createing the textures.
  </description>
+	<loadAfter>
+ 		<li>reel.turretpipeline</li>
+	</loadAfter>
 </ModMetaData>
